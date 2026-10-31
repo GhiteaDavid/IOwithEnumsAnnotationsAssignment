@@ -30,6 +30,8 @@ public class CsvReader {
 
             }
             return athletes;
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
 
 
